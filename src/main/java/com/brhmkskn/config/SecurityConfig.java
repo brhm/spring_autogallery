@@ -10,7 +10,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.brhmkskn.jwt.AuthEntryPoint;
+import com.brhmkskn.handler.AuthEntryPoint;
 import com.brhmkskn.jwt.JWTAuthenticationFilter;
 
 @Configuration
